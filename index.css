@@ -1,0 +1,477 @@
+*{
+    margin: 0px;
+    
+}
+
+body{
+    background-color: rgb(9, 1, 31);
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#mainnav #navone{
+    color:white;
+    margin-left: 50px;
+   
+}
+
+#mainnav #navtwo ul {
+    display: flex;
+    margin-right: 50px;
+    gap:20px;
+    padding: 5px;
+  
+}
+
+#mainnav #navtwo ul li{
+    list-style: none;
+    
+}
+
+#mainnav #navtwo ul li a{
+    color:white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#mainnav #navtwo ul li a:hover{
+    background-color: #0ef;
+    color:black;
+    box-shadow: 0px 0px 30px #0ef;
+    
+}
+
+#mainnav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(2, 2, 59);
+    padding: 10px;
+    /* position: fixed;
+    width: 100%;
+    top: 0; */
+    
+
+        
+    
+    
+    
+}
+
+#firstphase .photo{
+    width:30px;
+    border: 3px solid #0ef;
+    border-radius: 50%;
+    
+   
+     
+}
+
+#firstphase .photo:hover{
+    box-shadow: 0px 0px 30px #0ef;
+    transform: scale(1.1);
+
+}
+
+
+#firstphase{
+    margin-top: 100px;
+    margin-left:70px;
+    color:white;
+    
+}
+
+#firstphase h1{
+    font-size: 56px;
+}
+
+#firstphase h3{
+    font-size: 32px;
+}
+
+#firstphase .namecolor{
+    color:#0ef;
+}
+
+#firstphase #para{
+    max-width: 500px;
+}
+
+#firstphase #aboutme{
+    border-radius: 30px;
+    border:none;
+    background-color: #0ef;
+    padding: 5px 15px;
+    font-weight: bold;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef;
+}
+
+#firstphase #aboutme a{
+    text-decoration: none;
+}
+
+#firstphase #aboutme:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,0 0 50px cyan ,
+    0 0 100px cyan,0 0 200px cyan;
+    transform: scale(1.1);
+    
+
+}
+
+
+
+#mainphase #secondphase img{
+    width:350px;
+    height:350px;
+    border:5px solid #0ef;
+    box-shadow: 0px 0px 50px #0ef;
+    border-radius: 50%;
+    margin-top: 90px;
+    margin-right: 200px;
+
+    
+}
+
+#mainphase{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+
+}
+
+#firstphase #icons{
+    display:flex;
+    justify-content: space-between;
+    max-width: 150px;
+
+}
+
+#resume{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+#resume a{
+    background-color: #0ef;
+    padding: 5px 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef;
+    color:black;  
+    text-decoration: none;
+}
+
+#resume a:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,0 0 50px cyan ,
+    0 0 100px cyan,0 0 200px cyan;
+    transform: scale(1.1);
+
+
+}
+
+
+
+/* ........................... About page ........................................ */
+
+
+
+#about #about-image img{
+    width:350px;
+    height:350px;
+    border:5px solid #0ef;
+    box-shadow: 0px 0px 50px #0ef;
+    border-radius: 50%;
+    margin-top: 90px;
+    margin-right: 200px;
+}
+
+#about #about-text{
+    color:white;
+    letter-spacing: 0.5px;
+    margin-top: 70px;
+    max-width: 700px;
+
+}
+
+#about #about-text span{
+    color:#0ef
+}
+
+#about #about-text h1{
+    font-size: 56px;
+
+}
+
+#about #about-text h3{
+    font-size: 36px;
+
+}
+
+
+#about{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 210px;
+}
+
+#about-text #aboutme2{
+    border-radius: 30px;
+    border:none;
+    background-color: #0ef;
+    padding: 5px 15px;
+    font-weight: bold;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef;
+
+}
+
+#about-text #aboutme2 a{
+    text-decoration: none;
+    color:black
+}
+
+
+#about-text #aboutme2:hover{
+
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,0 0 50px cyan ,
+    0 0 100px cyan,0 0 200px cyan;
+    transform: scale(1.1);
+}
+
+
+
+
+/* ......................................................................Skills................................................................. */
+
+
+
+
+
+
+/* .................................................. Services .................................................. */
+
+#service .service1{
+    color:white;
+    width: 350px;
+    border:1px solid black;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px rgb(0, 162, 255);
+    padding:10px;
+    
+    
+
+}
+
+
+
+#service .service1 .learnmore{
+    border-radius: 30px;
+    border:none;
+    background-color: #0ef;
+    padding: 5px 15px;
+    font-weight: bold;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef;
+    
+}
+
+#service .service1:hover{
+    transform: scale(1.1);
+}
+
+
+
+#service{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+}
+
+#service .service1 img{
+    width:30px;
+    padding: 10px;
+}
+
+
+ #myservice {
+    color:white;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 225px;
+    
+    
+}
+
+#myservice span{
+    color:#0ef;
+}
+
+
+
+/* ......................................Project.................................................. */
+
+
+#colorproject{
+    font-size: 70px;
+    color:white;
+    text-align: center;
+    margin-top: 270px;
+}
+
+
+#colorproject span{
+    color:#0ef
+}
+
+#project .latestproject img{
+    width:500px;
+    border-radius: 10px;
+    height: 300px;
+    
+}
+
+#project .latestproject{
+    color:white;
+    width: 500px;
+    border:1px solid black;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px rgb(0, 162, 255);
+
+}
+
+#project .latestproject p{
+    padding: 15px;
+}
+
+#project .latestproject p span{
+    color: #0ef;
+}
+
+#project {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;;
+}
+
+
+
+
+/* ....................................................contact.................................................. */
+
+
+
+
+
+
+#contact{
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+    margin-bottom: 150PX;
+   
+    
+}
+
+#contact #contact1{
+    width:700px
+}
+
+#contact #contact1 h3{
+    font-size: 25px;
+}
+
+
+#contact h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+#contact h1 span{
+    color: #0ef;
+}
+
+#contact img{
+    width: 30px;
+    
+}
+
+#contact .inline{
+    display: flex;
+   
+}
+
+#contact .inline p{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#contact2 input{
+    width: 500px;
+    padding:10px;
+    border-radius: 10px;
+    background-color: rgb(125, 143, 161);
+    color:black;
+    font-weight: bold;
+
+}
+
+#contact textarea{
+    width: 500px;
+    padding:10px;
+    border-radius: 10px;
+    background-color: rgb(125, 143, 161);
+    color:black;
+    font-weight: bold;
+
+}
+
+
+#contact2 .forms input{
+    height: 500px;
+}
+
+
+#submit{
+    width: 530px;
+    padding:10px;
+    border-radius: 30px;
+    background-color: #0ef;
+    color:black;
+    font-weight: bold;
+    border:none;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef;
+    
+}
+
+
+#submit:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,0 0 50px cyan ,
+    0 0 100px cyan,0 0 200px cyan;
+    transform: scale(1.1);
+}
+
+
+.top img{
+    width: 30px;
+    border:2px solid #0ef;
+    padding: 5px;
+    background-color: #0ef;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+}
+
+
